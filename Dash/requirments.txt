@@ -1,0 +1,5 @@
+pandas==1.5.3
+dash==2.11.1
+pymongo==4.5.0
+plotly==5.15.0
+requests==2.31.0
