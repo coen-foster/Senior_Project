@@ -9,7 +9,7 @@ import re
 
 dbclient = MongoClient("mongodb+srv://coenfoster:Fall2024@test-server.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000")
 db = dbclient['test_db']
-collection = db['code']
+collection = db['SPY']
 
 cur = collection.find({})
 
